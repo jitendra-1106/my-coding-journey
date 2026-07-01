@@ -12,7 +12,7 @@ int main(){
     */
    char grade;
    int marks;
-   printf("Enter marks marks:");
+   printf("Enter marks :");
    scanf("%d",&marks);
 
    // Check the marks range and assign the grade
