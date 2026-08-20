@@ -3,8 +3,8 @@
 
 int main()
 {
-    char c = 'b';     // Character whose occurrence we want to contains
-    int contains = 0; // Stores the number of times the character occurs
+    char c = 'b';     
+    int contains = 0; 
 
     char str[] = "Kjufoesb!lvnbs!nbwbmjzb";
     for (int i = 0; i < strlen(str); i++)
