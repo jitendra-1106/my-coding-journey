@@ -17,6 +17,7 @@ int main()
 
     // now we can print structure element using:
     printf("%d", (*ptr).code);  // ptr->code same as (*ptr).code
+    // here -> is known as the arrow operator.
 
     return 0;
 }
