@@ -31,6 +31,9 @@ int main()
     printf("The value of num is %d\n", num);
     // Prints the second value stored in num.
 
+    fclose(ptr);
+    // Closes the file opened through ptr and releases the resources used by the file.
+
     return 0;
     // Ends the program successfully.
 }
