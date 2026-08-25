@@ -8,11 +8,11 @@ int main()
 
     ptr = (int *)malloc(n * sizeof(int));
 
-    ptr[0] = 4.5;
-    ptr[1] = 8.5;
-    ptr[2] = 8.29;
-    ptr[3] = 3.56;
-    ptr[4] = 5.99;
+    ptr[0] = 4;
+    ptr[1] = 8;
+    ptr[2] = 6;
+    ptr[3] = 3;
+    ptr[4] = 5;
 
     printf("%d\n", ptr[0]);
     printf("%d\n", ptr[1]);
