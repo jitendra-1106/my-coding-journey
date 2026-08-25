@@ -5,7 +5,7 @@ int main()
 {
     int n = 5;
     int *ptr;
-    ptr = (int *)calloc(n, sizeof(int));
+    ptr = (int *)malloc(n * sizeof(int));
 
     for (int i = 0; i < n; i++)
     {
