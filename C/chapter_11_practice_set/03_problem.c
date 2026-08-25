@@ -3,7 +3,7 @@
 
 int main()
 {
-    int n = 5;
+    int n = 6;
     int *ptr;
 
     ptr = (int *)calloc(n , sizeof(int));
