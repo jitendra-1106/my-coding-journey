@@ -15,6 +15,6 @@ int main(){
 }    
 
 /*
-'<<' is called Insertion operator.
-'>>' is called Extraction operator.
+'<<' is called Insertion operator..
+'>>' is called Extraction operator..
 */
