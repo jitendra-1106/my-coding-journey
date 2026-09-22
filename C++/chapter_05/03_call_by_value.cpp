@@ -16,7 +16,7 @@ int main(){
 
     cout<<"The value of x is "<<x<<" and the value of y is "<<y<<endl;
 
-    swap(x, y); //This will not swap a and b.
+    swap(x, y); //This will not swap x and y.
     cout<<"The value of x is "<<x<<" and the value of y is "<<y<<endl;
     
     return 0;
