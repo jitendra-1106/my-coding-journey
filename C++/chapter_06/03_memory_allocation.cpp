@@ -2,6 +2,9 @@
 using namespace std;
 
 class shop{
+    // Define data members once in the class.
+    // We do not need to define them again for every object.
+    
     int itemid[100]; // Stores IDs of up to 100 items
     int itemprice[100]; // Stores prices of up to 100 items
     int counter; // Stores the current array index
@@ -11,6 +14,13 @@ class shop{
     void setprice(void);
     void displayprice(void);
 };
+
+/*
+When an object is created, it gets its own separate memory for these data members.
+Example: shop dukaan1; shop dukaan2; 
+Both objects use the same class definition, 
+but each object has its own itemid, itemprice and counter.
+*/
 
 void shop :: setprice(void){
 
